@@ -6,7 +6,7 @@ It fetches products from a public API and allows users to search products in rea
 ---
 
 ## 🚀 Live Demo
-🔗 https://react-product-app.vercel.app
+🔗 https://react-product-9n8xdx42i-react-apps.vercel.app
 
 ---
 
