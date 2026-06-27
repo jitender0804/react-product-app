@@ -37,3 +37,34 @@ footer a:hover {
     text-align: center;
   }
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* optional better UI for empty state */
+.no-products {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

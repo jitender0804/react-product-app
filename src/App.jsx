@@ -75,23 +75,33 @@ function App() {
   };
 
   return (
-    <div>
-      <Navbar search={search} setSearch={setSearch} />
+  <div className="app-container">
 
+    <Navbar search={search} setSearch={setSearch} />
+
+    <div className="content">
       <div className="container-fluid px-4 mt-4">
+
         {filteredProducts.length === 0 ? (
-          <h3 className="text-center mt-5">No products found</h3>
+          <div className="no-products">
+            <h3 className="text-center">No products found</h3>
+          </div>
         ) : (
           <ProductList
             filteredProducts={filteredProducts}
             renderStars={renderStars}
           />
         )}
+
       </div>
-      <Footer />
     </div>
+
+    <Footer />
+
+  </div>
+);
     
-  );
+
 }
 
 export default App;

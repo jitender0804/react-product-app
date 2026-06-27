@@ -6,7 +6,7 @@ function Navbar({ search, setSearch }) {
       <div className="container-fluid">
       {/* Logo / Title */}
       <a className="navbar-brand fw-bold" href="#">
-        Product App
+        React Product App
       </a>
 
       {/* Toggle for mobile */}
